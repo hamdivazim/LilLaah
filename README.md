@@ -2,7 +2,7 @@
 
 *For The Sake of Allah*  
 
-LilLaah is an open-source React Native app designed to help Muslims stay connected to their faith. It includes prayer times, Quran recitation with translations, and a curated collection of duas - all in one privacy-focused app.
+LilLaah is an open-source React Native app designed to help Muslims stay connected with faith. It includes prayer times, Quran recitation with translations, and a curated collection of duas - all in one privacy-focused app.
 
 ## Features
 
@@ -19,7 +19,11 @@ LilLaah is an open-source React Native app designed to help Muslims stay connect
 
 - **Duas**  
   - A curated collection of authentic duas  
-  - Quick access to daily and special occasion duas  
+  - Quick access to daily and special occasion duas
+
+- **Privacy**
+   - All source code is available for viewing or contributing
+   - No data ever leaves your devices - location calculations are always done on device.
 
 ## Installation
 
