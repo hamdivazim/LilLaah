@@ -44,16 +44,16 @@ iOS version will be available to sideload in future releases
 ## Screenshots
 
 ### Prayer Times
-![Prayer Times](./screenshots/prayer.png)  
+<img src="./screenshots/prayer.png" alt="Prayer Times" style="max-height:400px;">
 
 ### Quran
-![Quran](./screenshots/quran.png)  
+<img src="./screenshots/quran.png" alt="Quran" style="max-height:400px;">
 
 ### Duas
-![Duas](./screenshots/duas.png)
+<img src="./screenshots/duas.png" alt="Duas" style="max-height:400px;">
 
 ### Settings
-![Settings](./screenshots/settings.png)
+<img src="./screenshots/settings.png" alt="Settings" style="max-height:400px;">
 
 ## Contributing
 
