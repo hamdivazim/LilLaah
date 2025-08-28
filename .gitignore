@@ -7,6 +7,43 @@
 .buildlog/
 .history
 
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
 
 
 # Flutter repo-specific
@@ -117,3 +154,83 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# media tab (coming soon!)
+media/
+media_service.js
+LilLaah/screens/quran/old.js
+
+Old_LilLaah_Backups/
+
+# chatgpt gitignore
+# ----------------------
+# -----------------------
+# Miscellaneous
+# -----------------------
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.buildlog/
+.history
+.DS_Store
+
+# -----------------------
+# Node / Expo / React Native
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.expo/
+.expo-shared/
+.web-build/
+**/build/
+*.expo
+*.expo-shared
+
+# -----------------------
+# Android (Expo managed)
+# -----------------------
+android/.gradle/
+android/app/build/
+android/.idea/
+android/.cxx/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+android/captures/
+android/key.properties
+*.jks
+
+# -----------------------
+# iOS (if any)
+# -----------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/App.framework/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/.last_build_id
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/**/*.xcworkspace
+ios/**/*.xcuserdata
+ios/DerivedData/
+
+# -----------------------
+# F-Droid
+# -----------------------
+fdroid/archive/*.apk          # Don’t commit APKs
+fdroid/index.*                # Ignore generated repo index
+fdroid/metadata/*.tmp          # Ignore temp metadata files (optional)
+
+# -----------------------
+# Coverage / Logs / Misc
+# -----------------------
+coverage/
+*.symbols
+*.env
+.env.*
