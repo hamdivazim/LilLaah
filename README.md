@@ -41,20 +41,6 @@ iOS version will be available to sideload in future releases
 4. Select your preferred reciter and translation for Quran audio.  
 5. Explore and save your favourite duas.
 
-## Screenshots
-
-### Prayer Times
-<img src="./screenshots/prayer.png" alt="Prayer Times" style="max-height:400px;">
-
-### Quran
-<img src="./screenshots/quran.png" alt="Quran" style="max-height:400px;">
-
-### Duas
-<img src="./screenshots/duas.png" alt="Duas" style="max-height:400px;">
-
-### Settings
-<img src="./screenshots/settings.png" alt="Settings" style="max-height:400px;">
-
 ## Contributing
 
 LilLaah is open-source! Contributions are welcome.  
